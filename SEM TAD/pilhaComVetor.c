@@ -8,7 +8,7 @@ typedef struct pilha{
     int vet[MAX];
 }Pilha;
 
-Pilha *cria(){
+Pilha *cria(){ 
     Pilha *p = (Pilha*)malloc(sizeof(Pilha));
     p->n = 0;
     return p;
